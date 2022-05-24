@@ -1,13 +1,13 @@
 ---
-title: "Chapter 8"
+title: "Chapter 9"
 output: html_notebook
 ---
 
-# 8 Debugging, condition handling, and defensive programming
+# 9 Debugging, condition handling, and defensive programming
 
-## 8.1 Debugging techniques
+## 9.1 Debugging techniques
 
-## 8.2 Debugging tools
+## 9.2 Debugging tools
 
 ```{r}
 f <- function(a) g(a)
@@ -17,7 +17,7 @@ i <- function(d) "a" + d
 try(f(10))
 ```
 
-## 8.3 Condition handling
+## 9.3 Condition handling
 
 ```{r}
 f1 <- function(x) {
@@ -199,6 +199,6 @@ tryCatch(custom_stop("my_error", "!"),
 #> [1] "my_error"
 ```
 
-## 8.4 Defensive programming
+## 9.4 Defensive programming
 
-## 8.5 Quiz answers
+## 9.5 Quiz answers
