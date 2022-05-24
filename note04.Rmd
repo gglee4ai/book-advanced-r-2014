@@ -3,9 +3,9 @@ title: "Chapter 4"
 output: html_notebook
 ---
 
-## Vocabulary
+# 4 Vocabulary
 
-### The basics
+## 4.1 The basics
 
 ```{r}
 # The first functions to learn
@@ -92,7 +92,7 @@ tapply
 replicate
 ```
 
-### Common data structures
+## 4.2 Common data structures
 
 ```{r}
 # Date time
@@ -128,7 +128,7 @@ aperm
 library(abind)
 ```
 
-### Statistics
+## 4.3 Statistics
 
 ```{r}
 # Ordering and tabulating 
@@ -163,7 +163,7 @@ rcond
 solve
 ```
 
-### Working with R
+## 4.4 Working with R
 
 ```{r}
 # Workspace 
@@ -192,7 +192,7 @@ stop, warning, message
 tryCatch, try
 ```
 
-### I/O
+## 4.5 I/O
 
 ```{r}
 # Output

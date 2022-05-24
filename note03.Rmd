@@ -3,9 +3,9 @@ title: "Chapter 3"
 output: html_notebook
 ---
 
-## 3 Subsetting
+# 3 Subsetting
 
-### 3.1 Data types
+## 3.1 Data types
 
 ```{r}
 x <- c(2.1, 4.2, 3.3, 5.4)
@@ -135,7 +135,7 @@ x[!upper.tri(x)] <- NA
 mtcars[1:20, ]
 ```
 
-### 3.2 Subsetting operators
+## 3.2 Subsetting operators
 
 ```{r}
 a <- list(a = 1, b = 2)
@@ -202,7 +202,7 @@ str(x[NA_real_])
 str(x[NULL])
 ```
 
-### 3.3 Subsetting and assignment
+## 3.3 Subsetting and assignment
 
 ```{r}
 x <- 1:5
@@ -252,7 +252,7 @@ y["b"] <- list(NULL)
 y
 ```
 
-### 3.3 Applications
+## 3.3 Applications
 
 ```{r}
 x <- c("m", "f", "u", "f", "f", "m", "m")
