@@ -3,9 +3,9 @@ title: "Chapter 2"
 output: html_notebook
 ---
 
-## 2 Data structures
+# 2 Data structures
 
-### 2.1 Vectors
+## 2.1 Vectors
 
 ```{r}
 dbl_var <- c(1, 2.5, 4.5)
@@ -94,7 +94,7 @@ is.list(mod)
 c(FALSE, NA_character_)
 ```
 
-### 2.2 Attributes
+## 2.2 Attributes
 
 ```{r}
 y <- 1:10
@@ -224,7 +224,7 @@ f3 <- factor(letters, levels = rev(letters))
 f3
 ```
 
-### 2.3 Matrices and arrays
+## 2.3 Matrices and arrays
 
 ```{r}
 a <- matrix(1:6, ncol = 3, nrow = 2)
@@ -283,7 +283,7 @@ is.matrix(matrix(1:6))
 is.array(matrix(1:6))
 ```
 
-### 2.4 Data frames
+## 2.4 Data frames
 
 ```{r}
 df <- data.frame(x = 1:3, y = c("a", "b", "c"))
