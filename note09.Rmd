@@ -1,11 +1,11 @@
 ---
-title: "Chapter 9"
+title: "Chapter 10"
 output: html_notebook
 ---
 
-# 9 Functional programming
+# 10 Functional programming
 
-## 9.1 Motivation
+## 10.1 Motivation
 
 ```{r}
 set.seed(1014)
@@ -90,7 +90,7 @@ summary <- function(x) {
 lapply(df, summary)
 ```
 
-## 9.2 Anonymous functions
+## 10.2 Anonymous functions
 
 ```{r}
 lapply(mtcars, function(x) length(unique(x)))
@@ -121,7 +121,7 @@ f <- function(x) x + 3
 f(10)
 ```
 
-## 9.3 Closures
+## 10.3 Closures
 
 ```{r}
 power <- function(exponent) {
@@ -207,7 +207,7 @@ new_counter3()
 new_counter3()
 ```
 
-## 9.4 Lists of functions
+## 10.4 Lists of functions
 
 ```{r}
 compute_mean <- list(
@@ -299,7 +299,7 @@ p("this is ", b("bold"), " text.")
 rm(list = names(html), envir = environment())
 ```
 
-## 9.5 Case study: numerical integration
+## 10.5 Case study: numerical integration
 
 ```{r}
 midpoint <- function(f, a, b) {
