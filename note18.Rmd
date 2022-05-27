@@ -158,14 +158,14 @@ read_delim <- function(file, header = TRUE, sep = ",") {
 
 ```{r}
 library(ggplot2)
-write.csv(diamonds, "test_diamonds.csv", row.names = FALSE)
+write.csv(diamonds, "output/test_diamonds.csv", row.names = FALSE)
 ```
 
 ```{r}
 library(lineprof)
 
 # source("code/read-delim.R")
-prof <- lineprof(read_delim("test_diamonds.csv"))
+prof <- lineprof(read_delim("output/test_diamonds.csv"))
 # shine(prof)
 ```
 

@@ -37,7 +37,7 @@ Rprof()
 
 ```{r}
 library(lineprof)
-source("profiling-example.r")
+source("R/profiling-example.r")
 l <- lineprof(f())
 l
 ```
