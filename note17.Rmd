@@ -9,6 +9,10 @@ output: html_notebook
 # devtools::install_github("hadley/lineprof")
 ```
 
+```{r}
+library(microbenchmark)
+```
+
 ## 17.1 Measuring performance
 
 ```{r}
