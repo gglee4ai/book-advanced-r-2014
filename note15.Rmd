@@ -86,7 +86,7 @@ unnamed <- function(x) {
 ```
 
 ```{r}
-source("R/dsl-html-attributes.r", local = TRUE)
+source("R/dsl-html-attributes.R", local = TRUE)
 p <- function(...) {
   args <- list(...)
   attribs <- html_attributes(named(args))
